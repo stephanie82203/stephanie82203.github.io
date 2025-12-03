@@ -1,13 +1,21 @@
 # Site Settings
 name: Stephanie
-title: Data & Business Analyst | Portfolio
+title: Stephanie | Portfolio
 description: A collection of my projects, learning journey, and portfolio.
 tags:
-  - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+  - portfolio
+  - data-analysis
+  - visualization
+  - business-intelligence
+  - dashboard
+  - python
+  - r
+  - sql
+  - power-bi
+  - jupyter
+  - learning
+  - career
+  - university
 show_hero: true
 menu:
   - title: Home
@@ -15,19 +23,19 @@ menu:
   - title: About Me
     url: /about/
   - title: Projects
-    url: /tag/Projects/
-  - title: Resume
-    url: /resume/
-  - title: What I Learn
-    url: /tag/Learning/
+    url: /projects/
+  - title: Experience & Skills
+    url: /experience-skills/
+  - title: Education
+    url: /education/
   - title: Contact
     url: /contact/
 email: stephanie2003cheng@gmail.com
 # See: https://disqus.com/
-disqus_username: disqus_username
+disqus_username: ""
 # Contact Form Setting
 # See: https://formspree.io/
-formspree_form_id: formspree_form_id
+formspree_form_id: ""
 
 
 # Social Media Settings
@@ -45,7 +53,7 @@ two_columns_layout: true
 
 # Advanced Settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://stephanie82203.github.io" 
+url: "https://stephaniecheng.github.io" 
 google_analytics: ""
 language: "en"
 categories_folder: category
@@ -60,7 +68,7 @@ collections:
   authors:
     output: true
 paginate_path: "/page/:num/"
-show_get_theme_btn: true
+show_get_theme_btn: false
 use_logo: false
 
 # Content paginator
@@ -89,24 +97,6 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-paginate-content
-
-# Exclude my node related stuff
-exclude: [
-  'docs/',
-  'vendor/',
-  'LICENSE',
-  'CHANGELOG.md',
-  'jekflix.gemspec',
-  'package.json',
-  'package-lock.json',
-  'src',
-  'node_modules',
-  'initpost.sh',
-  'Gemfile',
-  'Gemfile.lock',
-  'gulpfile.js',
-  'README.md'
-]
 
 # Theme
 version: v3.1.2
