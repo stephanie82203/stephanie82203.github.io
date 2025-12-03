@@ -1,5 +1,5 @@
 # Site Settings
-name: Stephanie
+name: Stephanie Cheng
 title: Stephanie | Portfolio
 description: A collection of my projects, learning journey, and portfolio.
 tags:
@@ -53,7 +53,7 @@ two_columns_layout: true
 
 # Advanced Settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://stephaniecheng.github.io" 
+url: "https://stephanie82203.github.io" 
 google_analytics: ""
 language: "en"
 categories_folder: category
@@ -97,6 +97,3 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-paginate-content
-
-# Theme
-version: v3.1.2
