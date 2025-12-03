@@ -8,27 +8,22 @@ permalink: /about/
 
 <!-- TOP SECTION -->
 <div style="display: flex; align-items: center; gap: 40px; flex-wrap: wrap; margin-bottom: 50px;">
-
-  <!-- LEFT: PHOTO (original Jekyll theme styling) -->
+  <!-- LEFT: PHOTO -->
   <div style="flex: 1; min-width: 220px; text-align: center;">
     <img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Stephanie Cheng" width="200">
   </div>
-
   <!-- RIGHT: WHO I AM -->
   <div style="flex: 2; min-width: 280px;">
     <h1 style="margin-top:0;">Hello!</h1>
     <h1 style="margin-top:0;">I'm Stephanie.</h1>
-
     <p>
     Someone who likes figuring things out, fixing messy problems, and finding the fastest way to get things done (half efficiency, half smart-lazy logic).
     I studied <strong>Statistics</strong> with an <strong>Economics minor</strong>, starting in mathematics and computational courses before realizing I prefer working with real patterns, behaviour, and decisions — and turning them into something people can actually understand.
     </p>
   </div>
-
 </div>
 
 <!-- BELOW SECTIONS START: FULL WIDTH -->
-
 ## How I Work
 I learn fast, apply things even faster, and keep everything simple.
 I break problems into steps, cut unnecessary work, and build processes that save time for both me and whoever uses them.
@@ -45,7 +40,6 @@ I communicate clearly and work well with people — whether it’s presenting re
 I like turning information into clear, authentic visuals. I enjoy design, and I care about how things look, how they flow, and how people interact with them.
 
 I use machine learning at a basic, practical level, and I like building tools that help people see patterns without digging through endless numbers or code.
-
 ---
 ## What Drives Me
 I like understanding systems, behaviour, and the “why” behind patterns.
