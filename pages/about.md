@@ -26,12 +26,6 @@ permalink: /about/
   </div>
 
 </div>
-<img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Stephanie Cheng" width="200">
-
-Who I Am
-
-Hi, I’m Stephanie — someone who likes figuring things out, fixing messy problems, and finding the fastest way to get things done (half efficiency, half smart-lazy logic).
-I studied Statistics with an Economics minor, starting out in mathematics and computational courses before realizing I prefer working with real patterns, decisions, and behaviour — and turning them into something people can actually understand.
 
 <!-- BELOW SECTIONS START: FULL WIDTH -->
 
@@ -42,11 +36,10 @@ If something is inefficient, I fix it. If something is confusing, I clean it up.
 
 Years of customer-facing roles taught me how to read a room, stay calm, and explain things without overcomplicating them. 
 I communicate clearly and work well with people — whether it’s presenting results or solving something on the spot.
-
 ---
-
 ## What I Can Do
 ✨ I use Python, R, SQL, Excel, and Power BI, and I’m leveling up with Advanced Python, deeper SQL work, and new tools like Azure and Tableau.
+
 ✨ I also have a foundation in Python, Java, R, and C from my computational mathematics coursework, where I focused on algorithms and abstract data types.
 
 I like turning information into clear, authentic visuals. I enjoy design, and I care about how things look, how they flow, and how people interact with them.
@@ -54,7 +47,6 @@ I like turning information into clear, authentic visuals. I enjoy design, and I 
 I use machine learning at a basic, practical level, and I like building tools that help people see patterns without digging through endless numbers or code.
 
 ---
-
 ## What Drives Me
 I like understanding systems, behaviour, and the “why” behind patterns.
 I take on projects that force me to connect real problems with practical solutions.
@@ -64,9 +56,7 @@ Outside of work, I snowboard, shuffle dance, take random photos, and try new thi
 I’m a visual learner with a short attention span, so I naturally design workflows that are direct and time-saving.
 
 I value clarity, efficiency, and getting things done — and that shows up in how I build, how I communicate, and how I work with people.
-
 ---
-
 ## What I’m Building Toward
 I’m focusing on projects that combine analysis, design, and practical storytelling — the kind of work that simplifies complex problems and helps people make confident decisions.
 
