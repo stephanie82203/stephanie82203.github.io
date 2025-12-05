@@ -6,18 +6,95 @@ description: Learn more about who I am and what I build
 permalink: /about/
 ---
 
+<style>
+  .about-hero {
+    display:flex !important;
+    gap:40px;
+    align-items:center;
+    max-width:1000px;
+    margin:0 auto 60px auto;
+    padding:20px 20px 0 20px;
+    flex-wrap:wrap;
+  }
+
+  .about-hero-image {
+    flex:1;
+    min-width:260px;
+  }
+
+  .about-hero-image img {
+    width:100%;
+    height:auto;
+    border-radius:18px;
+    object-fit:cover;
+  }
+
+  .about-hero-card {
+    flex:1;
+    min-width:280px;
+    background:#ffffff;
+    padding:32px 36px;
+    border-radius:20px;
+    box-shadow:0px 8px 30px rgba(0,0,0,0.08);
+  }
+
+  .about-hero-card p {
+    margin:0 0 14px 0;
+    line-height:1.6;
+  }
+
+  .about-section {
+    padding:60px 0;
+    margin:0;
+  }
+
+  .about-section-inner {
+    max-width:900px;
+    margin:0 auto;
+    padding:0 20px;
+  }
+
+  .about-section-inner h2 {
+    margin-top:0;
+    margin-bottom:12px;
+  }
+
+  .about-section-inner p {
+    margin-top:8px;
+    line-height:1.6;
+  }
+
+  .about-section-cream { background:#f9f5f0; }
+  .about-section-blue  { background:#f4f7fa; }
+  .about-section-lilac { background:#f8f2fa; }
+  .about-section-green { background:#f6f9f3; }
+
+  @media (max-width: 768px) {
+    .about-hero {
+      flex-direction:column;
+      padding-top:10px;
+    }
+
+    .about-hero-card {
+      padding:24px 22px;
+    }
+  }
+</style>
+
 <!-- TOP SECTION -->
-<div style="display:flex !important; align-items:stretch; gap:24px; max-width:900px; margin:0 auto;">
+<div class="about-hero">
   <!-- LEFT: PHOTO -->
-  <div style="flex: 1; min-width: 260px; max-width: 350px; display:flex;">
-    <img src="/assets/img/uploads/profile.png" alt="Stephanie Cheng" style="width:100%; height:100%; object-fit:cover; border-radius:0;">
+  <div class="about-hero-image">
+    <img src="/assets/img/uploads/profile.png" alt="Stephanie Cheng">
   </div>
+
   <!-- RIGHT: WHO I AM -->
-  <div style="flex: 2; min-width: 300px;">
-    <h1 style="margin:0 0 8px 0; line-height:1.1;">Hello!</h1>
-    <h1 style="margin:0 0 18px 0; line-height:1.1;">I'm Stephanie.</h1>
-    <p style="margin-top: 0;">
-    Someone who likes figuring things out, fixing messy problems, and finding the fastest way to get things done (half efficiency, half smart-lazy logic).
+  <div class="about-hero-card">
+    <h1 style="margin:0 0 8px 0; line-height:1.1;">Hello! I'm Stephanie.</h1>
+    <p>
+    I'm someone who likes figuring things out, fixing messy problems, and finding the fastest way to get things done (half efficiency, half smart-lazy logic).
+    </p>
+    <p>
     I studied <strong>Statistics</strong> with an <strong>Economics minor</strong>, starting in mathematics and computational courses before realizing I prefer working with real patterns, behaviour, and decisions — and turning them into something people can actually understand.
     </p>
   </div>
