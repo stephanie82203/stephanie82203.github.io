@@ -7,14 +7,15 @@ permalink: /about/
 ---
 
 <!-- TOP SECTION -->
-<div style="display:flex; align-items:flex-start; gap:24px; max-width:900px; margin:auto;">
+<div style="display:flex !important; flex-direction:row !important; align-items:flex-start; gap:24px; max-width:900px; margin:auto;">
   <!-- LEFT: PHOTO -->
-    <img src="/assets/img/uploads/profile.png" alt="Stephanie Cheng" width="220" style="border-radius:0; object-fit:cover;">
+  <div style="flex: 1; min-width: 260px; max-width: 350px;">
+    <img src="/assets/img/uploads/profile.png" alt="Stephanie Cheng" width="220" style="border-radius:0; object-fit:cover; display:block;">
   </div>
   <!-- RIGHT: WHO I AM -->
   <div style="flex: 2; min-width: 300px; max-height: 100%">
     <h1 style="margin: 0 0 5px 0; line-height: 1.1;">Hello!</h1>
-    <h1 style="margin: 0 0 15px 0; line-height: 1.1;">I'm Stephanie.</h1>
+    <h1 style="margin: 0 0 5px 0; line-height: 1.1;">I'm Stephanie.</h1>
     <p style="margin-top: 0;">
     Someone who likes figuring things out, fixing messy problems, and finding the fastest way to get things done (half efficiency, half smart-lazy logic).
     I studied <strong>Statistics</strong> with an <strong>Economics minor</strong>, starting in mathematics and computational courses before realizing I prefer working with real patterns, behaviour, and decisions — and turning them into something people can actually understand.
