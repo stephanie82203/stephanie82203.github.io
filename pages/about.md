@@ -7,10 +7,9 @@ permalink: /about/
 ---
 
 <!-- TOP SECTION -->
-<div style="display: flex; justify-content: center; align-items: flex-start; gap: 30px; flex-wrap: wrap; margin-bottom: 40px;">
+<div style="display:flex; align-items:flex-start; gap:24px; max-width:900px; margin:auto;">
   <!-- LEFT: PHOTO -->
-  <div style="flex: 1; min-width: 260px; max-width: 350px;">
-    <img src="/assets/img/uploads/profile.png" alt="Stephanie Cheng" style="width:100%; height:auto; border-radius: 6px; object-fit: cover; display:block;">
+    <img src="/assets/img/uploads/profile.png" alt="Stephanie Cheng" width="220" style="border-radius:0; object-fit:cover;">
   </div>
   <!-- RIGHT: WHO I AM -->
   <div style="flex: 2; min-width: 300px; max-height: 100%">
